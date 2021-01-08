@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "new_ui",
+    "old_ui",
+]
+
+[patch.crates-io]
+# stretch = { git = "https://github.com/Davier/stretch.git", branch = "fix_perf_0.3.2" }

@@ -1,0 +1,11 @@
+[package]
+name = "new_ui"
+version = "0.1.0"
+authors = ["TheRawMeatball <therawmeatball@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# bevy = { git = "https://github.com/TheRawMeatball/bevy.git", branch = "anchor-ui" }
+bevy = { path = "../../bevy" }
